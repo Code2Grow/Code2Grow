@@ -1,0 +1,97 @@
+<!DOCTYPE html>0
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Icon Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Reem+Kufi+Ink&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="head logo">
+            <p><a href="#">Code2Grow</a></p>
+            <p><a href=""><i class="fa-solid fa-plus"></i></a>   New</p>
+        </div>
+        <div class="head run">
+            <button class="Mode"><i class="bi bi-brightness-high"></i></button>
+        </div>
+    </header>
+    <section class="hero">
+        <!-- Menu Section -->
+        <div class="menu">
+            <i class="fa-solid fa-bars-staggered"></i>
+            <div class="nav-menu">
+                <div class="menu-icon">
+                    <span><i class="fa-solid fa-home"></i></span>
+                </div>
+                <div class="menu-icon">
+                    <span><i class="fa-solid fa-plus"></i></span>
+                </div>
+                <div class="menu-icon">
+                    <span><i class="fa-solid fa-chart-line"></i></span>
+                </div>
+                <div class="menu-icon">
+                    <span><i class="fa-solid fa-user"></i></span>
+                </div>
+                <div class="menu-icon">
+                    <span><i class="fa-solid fa-gear"></i></span>
+                </div>
+            </div>
+            <div class="menu-link">
+                <div class="m-link">
+                    <a href="#" class="nav-link" aria-current="page">Home</a>
+                </div>
+                <div class="m-link">
+                    <a href="./Step.html" class="nav-link text-white">New</a>
+                </div>
+                <div class="m-link">
+                    <a href="#" class="nav-link text-white">Progress</a>
+                </div>
+                <div class="m-link">
+                    <a href="#" class="nav-link text-white ">Profile</a>
+                </div>
+                <div class="m-link">
+                    <a href="#" class="nav-link text-white">Setting</a>
+                </div>
+            </div>
+        </div> <!-- Menu Section End-->
+        <!-- Content Start -->
+        <div class="home_cont">
+        
+        </div><!-- Content Start End-->
+    </section>
+    <script>
+        // Menu handling
+var icon = document.querySelector(".fa-bars-staggered");
+var menu = document.querySelector(".menu");
+var home_cont = document.querySelector(".home_cont");
+var menu_link = document.querySelector(".menu-link");
+var m = 0;
+icon.addEventListener('click',()=>{
+    if(m==0)
+    {
+        menu.style.width = "5%";
+        home_cont.style.width = "95%";   
+        menu_link.style.display ="none";
+        m=1;
+    }
+    else{
+        menu.style.width = "15%";
+        home_cont.style.width = "85%";
+        menu_link.style.display ="block";
+        m = 0;
+    }
+})
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
