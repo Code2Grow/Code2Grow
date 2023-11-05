@@ -1,22 +1,26 @@
+## Table of Contents
+
+- [Problem](#Problem)
+- [Solution](#Solution)
+- [Presentation](#Presentation)
+- [Team](#Team)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 # Code2Grow: An IDE for Learning Programming and Note-Taking
 
 Welcome to **Code2Grow**, your all-in-one Integrated Development Environment (IDE) designed to make the process of learning and practicing programming more accessible and engaging. With **Code2Grow**, we empower learners of all levels to embark on a programming journey that's both educational and enjoyable, while also enhancing your note-taking experience.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#key)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Problem Statement
+- *Challenge*: Seamless integration of coding, compiling, and note-taking is a common challenge in software development.
+- *Workflow Disruption*: Switching between applications disrupts the coder's flow and hinders productivity.
+- *Disjointed Experience*: The disjointed experience can lead to frustration, especially for those new to coding.
 
-## Introduction
 
-In a world driven by technology, the ability to code is a valuable skill that can open doors to countless opportunities. **Code2Grow** is more than just an IDE; it's a supportive and interactive platform that fosters the growth of aspiring programmers and seasoned developers. One unique aspect of **Code2Grow** is its integrated note-taking functionality, allowing you to capture your insights, ideas, and programming concepts seamlessly.
-
-## Key Features
+  ## Solution
 
 **Code2Grow** offers a range of features to enhance your programming and note-taking experience:
 
@@ -33,6 +37,22 @@ In a world driven by technology, the ability to code is a valuable skill that ca
 - **Note-Taking**: Intuitive note-taking capabilities integrated directly into the IDE, allowing you to jot down important insights, code snippets, and concepts as you code.
 
 - **Supportive Community**: Connect with a community of like-minded learners, educators, and experts in the world of programming.
+
+  ## PowerPoint Presentation
+- You can access our PowerPoint presentation [here](https://github.com/Code2Grow/Code2Grow/blob/master/c2g.pdf).  
+
+
+## Team Members
+- Priyanshu Upadhyay
+  - Role: Backend Developer
+  - Email: upriyanshu331@gmail.com
+- Ananya Singh
+  - Role: UI/UX Designer
+  - Email: ananya0904singh@gmail.com
+- Nesar Alam
+  - Role: Frontend Developer
+  - Email: itsnesar15gmailcom
+
 
 ## Getting Started
 
