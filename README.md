@@ -2,6 +2,15 @@
 
 Welcome to **Code2Grow**, an innovative EdTech platform dedicated to transforming education through the power of technology. At **Code2Grow**, we believe in the potential of digital learning to enrich the educational experience for students, educators, and lifelong learners.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Introduction
 
 In an era of rapid technological advancement, traditional educational approaches are being reimagined. **Code2Grow** is at the forefront of this revolution, offering a modern, accessible, and immersive learning environment that adapts to the evolving needs of today's learners and educators.
