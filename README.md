@@ -6,7 +6,7 @@ Welcome to **Code2Grow**, your all-in-one Integrated Development Environment (ID
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Features](#key)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -20,6 +20,8 @@ In a world driven by technology, the ability to code is a valuable skill that ca
 
 **Code2Grow** offers a range of features to enhance your programming and note-taking experience:
 
+- **Multi-Compiler Support**: **Code2Grow** provides multi-compiler support, allowing you to compile and run code in 16-bit, 32-bit, and 64-bit environments for various programming languages this helps to easily visualize the difference in multiple compilers without going through the lengthy process of installing each compiler one by one.
+
 - **Interactive Coding Environment**: A user-friendly and interactive coding environment where you can experiment, learn, and build projects.
 
 - **Rich Learning Resources**: Access to a library of educational resources, tutorials, and examples to help you grasp programming concepts and languages.
@@ -29,8 +31,6 @@ In a world driven by technology, the ability to code is a valuable skill that ca
 - **Progress Tracking**: Keep track of your learning progress, set milestones, and achieve your programming goals.
 
 - **Note-Taking**: Intuitive note-taking capabilities integrated directly into the IDE, allowing you to jot down important insights, code snippets, and concepts as you code.
-
-- **Multi-Compiler Support**: **Code2Grow** provides multi-compiler support, allowing you to compile and run code in 16-bit, 32-bit, and 64-bit environments for various programming languages this helps to easily visualize the difference in multiple compilers without going through the lengthy process of installing each compiler one by one.
 
 - **Supportive Community**: Connect with a community of like-minded learners, educators, and experts in the world of programming.
 
