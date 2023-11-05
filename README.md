@@ -34,8 +34,6 @@ In a world driven by technology, the ability to code is a valuable skill that ca
 
 - **Supportive Community**: Connect with a community of like-minded learners, educators, and experts in the world of programming.
 
-- **Mobile-Friendly**: A responsive and mobile-friendly platform that allows you to code, take notes, and learn on the go.
-
 ## Getting Started
 
 Are you ready to embark on your programming journey with **Code2Grow**? Whether you're a beginner, an intermediate learner, or someone looking to refine their programming skills, our platform is designed to cater to your needs. Join us, explore our coding environment, access learning resources, and seamlessly integrate note-taking into your programming practice.
@@ -48,15 +46,3 @@ We invite educators, developers, and programming enthusiasts to contribute to th
 
 **Code2Grow** is released under the [MIT License](https://opensource.org/licenses/MIT). You are encouraged to use, modify, and share our platform to support accessible and engaging programming education for all.
 
----
-
-Feel free to use and customize this introduction in your README.md for the "Code2Grow: An IDE for Learning Programming and Note-Taking" project, incorporating the specific details and features that make your IDE unique and beneficial for learners and educators.
-
-
-## Contributing
-
-We enthusiastically welcome contributions from educators, developers, and anyone passionate about enhancing the learning experience. Join us in shaping the future of education by contributing to our open-source project.
-
-## License
-
-**Code2Grow** is released under the [MIT License](https://opensource.org/licenses/MIT). You are encouraged to utilize, modify, and share our platform to foster accessible and innovative education on a global scale.
