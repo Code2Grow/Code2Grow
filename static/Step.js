@@ -2,13 +2,19 @@
 var addCode = document.querySelector(".add-code-btn");
 var CodeBox = document.querySelector(".home_cont");
 let Code = document.querySelectorAll(".add-code");
-
+var out = document.querySelectorAll(".output");
 addCode.addEventListener('click', () => {
     let inputBox = document.createElement("textarea");
+    let outBox = document.createElement("textarea");
+    outBox.className = "output";
+    outBox.id = "output";
     inputBox.className = "add-code";
-    inputBox.id = "code"
+    inputBox.id = "code";
+    inputBox.placeholder = "/*Insert your code here...*/";
     inputBox.setAttribute("contenteditable", "true");
     CodeBox.appendChild(inputBox);
+    outBox.setAttribute("conteneditable","true");
+    CodeBox.appendChild(outBox);
 })
 // Note Box Generator
 var addNote = document.querySelector(".add-note-btn");
@@ -16,8 +22,9 @@ var NoteBox = document.querySelector(".home_cont");
 let Note = document.querySelectorAll(".add-note");
 
 addNote.addEventListener('click',()=>{
-    let inputBox = document.createElement("p");
+    let inputBox = document.createElement("textarea");
     inputBox.className = "add-note";
+    inputBox.placeholder = "/* Write your note here....*/"
     inputBox.setAttribute("contenteditable","true");
     NoteBox.appendChild(inputBox);
 })
